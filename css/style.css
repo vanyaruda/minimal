@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.eot');
+    src: url('../fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('../fonts/montserrat-regular-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 18px 0;
+}
+
+.container{
+    max-width: 940px; 
+    margin:auto;
+}
+
+.d_flex{
+    display: flex; justify-content: space-between; align-items: center;
+}
+
+#navbar{
+    list-style: none; 
+    display: flex;
+}
+
+header nav  ul li{
+    margin-left: 34px; 
+}
+
+header nav  ul li a{
+    font-family: 'montserratregular';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: #404040;
+            text-decoration: none;
+            display: inline-block;
+}
+
+footer{
+    background: #000000;
+     padding: 69px 0;
+}
+.container_bottom{
+    max-width: 564px;
+    margin: auto;
+    text-align: center;
+}
+
+.block_text{
+
+}
+
+::placeholder{
+    color: #FFFFFF;
+}
+
+.form_name{
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.18); padding: 18px 0px 18px 31px; 
+    border: none;
+    color: #FFFFFF; 
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px; 
+}
+
+.block_email{
+
+}
+
+.form_email{
+    width: 100%; box-sizing: border-box; background: rgba(255, 255, 255, 0.2); border: none; padding: 18px 0px 18px 31px; font-family: 'Vollkorn', serif;
+                font-style: italic;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 22px; color: #FFFFFF;
+}
+
+.block_budget{
+
+}
+.form_budget{
+    width: 100%; box-sizing: border-box; background: rgba(255, 255, 255, 0.18); border: none; padding: 18px 0px 18px 31px; font-family: 'Vollkorn', serif;
+                font-style: italic;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 22px; color: #FFFFFF;
+}
+
+.block_message{
+
+}
+
+.form_message{
+    resize:none; height: 127px; width: 100%; box-sizing: border-box; padding-top: 17px; padding-left: 31px; font-family: 'Vollkorn', serif;
+                font-style: italic;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 22px; color: #FFFFFF; background: rgba(255, 255, 255, 0.2); border: none;
+}
+
+.block_button{
+    margin-top: 22px;
+}
+
+.button_submit{
+    border: 1px solid #7EC4BD; background: #000000; font-family: 'Vollkorn', serif;
+                font-style: italic;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 22px; color: #8BCAC3; padding: 16px 60px;
+}
+
+.footer_logo{
+    margin-top: 37px;
+}
+
+.footer_text{
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.4); margin-top: 14px; 
+}
