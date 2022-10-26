@@ -140,3 +140,77 @@ footer{
     line-height: 22px;
     color: rgba(255, 255, 255, 0.4); margin-top: 14px; 
 }
+.main_banner{
+    min-height: 391px;
+    background-image: url("../images/IMAGE_main.jpg");
+    background-size: cover;
+    display: flex;
+}
+.main_banner h1{
+    font-family: 'montserratregular';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 55px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.main_banner p{
+    font-family: 'Vollkorn', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+color: rgba(255, 255, 255, 0.81);
+}
+.main_banner h1:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+.main_banner_description{
+    background-color: #FEFEC9;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.main_banner_description p{
+    font-family: 'Vollkorn', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #47474F;
+margin-bottom: 39px;
+}
+
+.main_banner_description a{
+    font-family: 'Vollkorn';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #47474F;
+display: inline-block;
+padding: 13px 34px 20px;
+border: solid 1px #47474F;
+border-bottom: solid 2px #47474F;
+text-decoration: none;
+}
+
+.brands{
+    background-color: #E5E5E5;
+    padding-top: 69px;
+    padding-bottom: 69px;
+}
