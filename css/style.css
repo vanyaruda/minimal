@@ -195,7 +195,7 @@ margin-bottom: 39px;
 }
 
 .main_banner_description a{
-    font-family: 'Vollkorn';
+    font-family: 'Vollkorn', serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -213,4 +213,100 @@ text-decoration: none;
     background-color: #E5E5E5;
     padding-top: 69px;
     padding-bottom: 69px;
+}
+.brands h2{
+    font-family: 'montserratregular';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+}
+.brands h2:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.09);
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 43px;
+}
+.target_logo{
+    margin-bottom: 38px;
+    
+}
+.target_titel{
+    font-family: 'montserratregular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+margin-bottom: 20px;
+}
+.target_subtitle{
+    font-family: 'Vollkorn', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+color: #333333;
+}
+.design_logo{
+    margin-bottom: 38px;
+}
+.design_title{
+    font-family: 'montserratregular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+margin-bottom: 20px;
+}
+.design_subtitle{
+    font-family: 'Vollkorn', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+color: #333333;
+}
+.design{
+    margin-left: 20px;
+}
+.progress{
+    margin-left: 20px;
+}
+.progress_logo{
+  margin-bottom: 38px;  
+}
+.progress_title{
+    font-family: 'montserratregular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+color: #333333;
+margin-bottom: 20px;
+}
+.progress_subtitle{
+    font-family: 'Vollkorn', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+color: #333333;
 }
