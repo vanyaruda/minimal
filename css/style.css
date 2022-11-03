@@ -335,11 +335,15 @@ margin: auto;
 margin-top: 28px;
 margin-bottom: 43px;
 }
-.woods_logo{
+.recent_logo{
     margin-bottom: 19px;
+}
+.recent_bgc{
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
-.woods_title{
+.recent_title{
     font-family: 'montserratregular';
 font-style: normal;
 font-weight: 400;
@@ -350,7 +354,7 @@ text-transform: uppercase;
 color: #333333;
 margin-bottom: 4px;
 }
-.woods_subtitle{
+.recent_subtitle{
     font-family: 'Vollkorn', serif;
 font-style: normal;
 font-weight: 400;
@@ -360,234 +364,9 @@ text-align: center;
 color: #333333;
 margin-bottom: 21px;
 }
-.woods{
-    background-color: #FFFFFF;
-}
-.path{
-    background-color: #FFFFFF;
-    margin-left: 20px;
-}
-.path_logo{
-    margin-bottom: 19px;
-}
-.path_title{
-    font-family: 'montserratregular';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
-text-transform: uppercase;
-color: #333333;
-margin-bottom: 4px;
-}
-.path_subtitle{
-    font-family: 'Vollkorn', serif;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-text-align: center;
-color: #333333;
-margin-bottom: 21px;
-}
-.darkness{
-    margin-left: 20px;
-    background-color: #FFFFFF;
-}
-.darkness_logo{
-    margin-bottom: 19px;
-}
-.darkness_title{
-    font-family: 'montserratregular';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
-text-transform: uppercase;
-color: #333333;
-margin-bottom: 4px;
-}
-.darkness_subtitle{
-    font-family: 'Vollkorn', serif;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-text-align: center;
-color: #333333;
-margin-bottom: 21px;
-}
-.first_recent{
-    margin-bottom: 20px;
-}
-.waves{
-    background-color: #FFFFFF;
-}
-.waves_logo{
-    margin-bottom: 19px;
-}
-.waves_title{
-    font-family: 'montserratregular';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 20px;
-text-align: center;
-text-transform: uppercase;
-color: #333333;
-margin-bottom: 4px;
-}
-.waves_subtitle{
-    font-family: 'Vollkorn', serif;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-text-align: center;
-color: #333333;
-margin-bottom: 21px;
-}
-.drops{
-    background-color: #FFFFFF;
-    margin-left: 20px;
-}
-.drops_logo{
-    margin-bottom: 19px;
-}
-.drops_title{
-    font-family: 'montserratregular';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
-text-transform: uppercase;
-color: #333333;
-margin-bottom: 4px;
-}
-.drops_subtitle{
-    font-family: 'Vollkorn', serif;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-text-align: center;
-color: #333333;
-margin-bottom: 21px;
-}
-.ocean{
-    margin-left: 20px;
-    background-color: #FFFFFF;
-}
-.ocean_logo{
-    margin-bottom: 19px;
-}
-.ocean_title{
-    font-family: 'montserratregular';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 20px;
-text-align: center;
-text-transform: uppercase;
-color: #333333;
-margin-bottom: 4px;
-}
-.ocean_subtitle{
-    font-family: 'Vollkorn', serif;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-text-align: center;
-color: #333333;
-margin-bottom: 21px;
-}
-.second_recent{
-    margin-bottom: 20px;
-}
-.town{
-    background-color: #FFFFFF;
-}
-.town_logo{
-    margin-bottom: 19px;
-}
-.town_title{
-    font-family: 'montserratregular';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
-text-transform: uppercase;
-color: #333333;
-margin-bottom: 4px;
-}
-.town_subtitle{
-    font-family: 'Vollkorn', serif;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-text-align: center;
-color: #333333;
-margin-bottom: 21px;
-}
-.mountain{
-    background-color: #FFFFFF;
-    margin-left: 20px;
-}
-.mountain_logo{
-    margin-bottom: 19px;
-}
-.mountain_title{
-    font-family: 'montserratregular';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
-text-transform: uppercase;
-color: #333333;
-margin-bottom: 4px;
-}
-.mountain_subtitle{
-    font-family: 'Vollkorn', serif;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-text-align: center;
-color: #333333;
-margin-bottom: 21px;
-}
-.camera{
-    margin-left: 20px;
-    background-color: #FFFFFF;
-}
-.camera_logo{
-    margin-bottom: 19px;
-}
-.camera_title{
-    margin-bottom: 4px;
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 20px;
-text-align: center;
-text-transform: uppercase;
-color: #333333;
-}
-.camera_subtitle{
-    margin-bottom: 21px;
-    font-family: 'Vollkorn';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-text-align: center;
-color: #333333;
+
+.recent_flex{
+    display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
 }
