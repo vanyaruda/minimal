@@ -238,6 +238,7 @@ color: #333333;
 .target_logo{
     margin-bottom: 38px;
     max-width: 300px;
+    display: inline-block;
     
 }
 .target_titel{
@@ -263,6 +264,7 @@ color: #333333;
 .design_logo{
     margin-bottom: 38px;
     max-width: 300px;
+    display: inline-block;
 }
 .design_title{
     font-family: 'montserratregular';
@@ -288,6 +290,7 @@ color: #333333;
 .progress_logo{
   margin-bottom: 38px;
   max-width: 300px;  
+  display: inline-block;
 }
 .progress_title{
     font-family: 'montserratregular';
