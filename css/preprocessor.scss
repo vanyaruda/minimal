@@ -17,6 +17,11 @@
 
 header {
     padding: 18px 0;
+    .d_flex {
+        @media screen and (max-width: 768px) {
+            justify-content: space-around;
+        }
+    }
 }
 
 .container {
@@ -33,6 +38,9 @@ header {
 #navbar {
     list-style: none;
     display: flex;
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
 }
 
 header nav ul li {
@@ -445,9 +453,17 @@ footer {
                 margin-bottom: 43px;
             }
         }
+        .d_flex {
+            @media screen and (max-width: 768px) {
+                display: block;
+            }
+        }
         .our_team_card {
             .team_card {
                 max-width: 220px;
+                @media screen and (max-width: 768px) {
+                    margin: auto;
+                }
                 .team_logo {
                     width: 100%;
                     margin-bottom: 20px;
@@ -472,12 +488,18 @@ footer {
                     text-align: center;
                     color: #333333;
                     margin-bottom: 29px;
+                    @media screen and (max-width: 768px) {
+                        margin-bottom: 10px;
+                    }
                 }
                 .social_logo {
                     list-style: none;
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    @media screen and (max-width: 768px) {
+                        margin-bottom: 7px;
+                    }
                     li {
                         display: flex;
                         align-items: center;
@@ -501,6 +523,9 @@ footer {
             top: 0;
             left: 47%;
             margin: auto;
+            @media screen and (max-width: 768px) {
+                display: none;
+            }
         }
         .d_flex {
             align-items: center;
@@ -512,6 +537,9 @@ footer {
         align-items: center;
         justify-content: space-between;
         min-height: 511px;
+        @media screen and (max-width: 768px) {
+            display: block;
+        }
         .reviews_man {
             max-width: 338px;
             text-align: center;
@@ -534,6 +562,9 @@ footer {
                     position: absolute;
                     left: 50%;
                     top: 146px;
+                    @media screen and (max-width: 768px) {
+                        display: none;
+                    }
                 }
             }
             img {
@@ -548,6 +579,19 @@ footer {
                 text-align: center;
                 text-transform: uppercase;
                 color: #ababab;
+                @media screen and (max-width: 768px) {
+                    // margin-bottom: 20px;
+                    &:after {
+                        content: "";
+                        display: block;
+                        margin: auto;
+                        width: 80px;
+                        height: 2px;
+                        background-color: rgba(0, 0, 0, 0.09);
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                    }
+                }
             }
         }
         .reviews_woman {

@@ -13,6 +13,11 @@
 header {
   padding: 18px 0;
 }
+@media screen and (max-width: 768px) {
+  header .d_flex {
+    justify-content: space-around;
+  }
+}
 
 .container {
   max-width: 940px;
@@ -28,6 +33,11 @@ header {
 #navbar {
   list-style: none;
   display: flex;
+}
+@media screen and (max-width: 768px) {
+  #navbar {
+    display: block;
+  }
 }
 
 header nav ul li {
@@ -446,8 +456,18 @@ footer {
   margin-top: 28px;
   margin-bottom: 43px;
 }
+@media screen and (max-width: 768px) {
+  .our_team .container .d_flex {
+    display: block;
+  }
+}
 .our_team .container .our_team_card .team_card {
   max-width: 220px;
+}
+@media screen and (max-width: 768px) {
+  .our_team .container .our_team_card .team_card {
+    margin: auto;
+  }
 }
 .our_team .container .our_team_card .team_card .team_logo {
   width: 100%;
@@ -474,11 +494,21 @@ footer {
   color: #333333;
   margin-bottom: 29px;
 }
+@media screen and (max-width: 768px) {
+  .our_team .container .our_team_card .team_card p {
+    margin-bottom: 10px;
+  }
+}
 .our_team .container .our_team_card .team_card .social_logo {
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .our_team .container .our_team_card .team_card .social_logo {
+    margin-bottom: 7px;
+  }
 }
 .our_team .container .our_team_card .team_card .social_logo li {
   display: flex;
@@ -501,6 +531,11 @@ footer {
   left: 47%;
   margin: auto;
 }
+@media screen and (max-width: 768px) {
+  .reviews .container .img_absolut {
+    display: none;
+  }
+}
 .reviews .container .d_flex {
   align-items: center;
 }
@@ -509,6 +544,11 @@ footer {
   align-items: center;
   justify-content: space-between;
   min-height: 511px;
+}
+@media screen and (max-width: 768px) {
+  .reviews .rev_card {
+    display: block;
+  }
 }
 .reviews .rev_card .reviews_man {
   max-width: 338px;
@@ -535,6 +575,11 @@ footer {
   left: 50%;
   top: 146px;
 }
+@media screen and (max-width: 768px) {
+  .reviews .rev_card .reviews_man h3:after {
+    display: none;
+  }
+}
 .reviews .rev_card .reviews_man img {
   margin-bottom: 10px;
 }
@@ -547,6 +592,18 @@ footer {
   text-align: center;
   text-transform: uppercase;
   color: #ababab;
+}
+@media screen and (max-width: 768px) {
+  .reviews .rev_card .reviews_man p:after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.09);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 .reviews .rev_card .reviews_woman {
   max-width: 338px;
